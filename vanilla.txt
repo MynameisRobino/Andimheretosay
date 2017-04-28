@@ -1,0 +1,4 @@
+vanilla:
+	img-200.jpg
+	index.html
+	vanilla.js
