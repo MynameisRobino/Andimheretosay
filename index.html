@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Page Title: find this on the page tab -->
+		<title>
+		Vanilla Vue2 App
+		</title>
+
+		<!-- Local styles. you can of course add a .css file here for cleaner interface -->
+		<style type="text/css">
+			
+			.isaqua {
+				color:aqua;
+			}
+			 p.one {
+    			border-style: dotted;
+    			border-width: thick;
+			}
+		</style>
+
+	</head>
+
+	<!-- Visible page content goes below here -->
+	<body style="background-color:khaki;">
+
+		<h1 style="text-align:center;
+		font-family:papyrus;
+		color:grey"
+		<strong>WAOA</strong> it's my vanilla WEB PAGE
+		</h1>
+	<br>
+		<a href="../index.html">
+		<h3 style="text-align:center;
+		color:IndianRed;"
+		>Wanna head back?</h3></a>
+		
+		<div id="root"><!-- This is IMPORTANT! 
+		It is the root (main) container for the Vue2 script -->
+
+		<div class="search-wrapper">
+		<!-- this 'wrapper' is just a container, not really important unless 
+		you want to use it for styling the input -->
+
+			<input type="text" v-model="keyword" name="search" placeholder="Search..."> <!-- This is IMPORTANT!
+			It is the binding to the Vue2 model that processes the data -->
+
+		</div>
+
+			<div class="wrapper"> 
+			<!-- this 'wrapper' is just a container, not really important unless 
+			you want to use it for styling data -->
+
+				<div v-for="post in filterlist"> <!-- This is IMPORTANT!
+				It is the 'for' loop, or machine that cycles over the data -->
+
+					<div> <!-- this is not really important, but will be the 'holder' for the post object item -->
+
+						<img :src="post.img"> <!-- this is bound to the img slot -->
+
+						<a class="isaqua" :href="post.link">{{post.title}}</a>
+
+						<p><em>by {{post.author}}</em></p>
+
+						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
+
+					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+	
+	</body>
+
+	<!-- Javascript must be placed here at the bottom of the page
+		so that all the HTML content will be processed fist by the browser
+		then procesed by the javascript -->
+
+	<!-- This Vue2 script package is pulled in remotely via a CDN -->
+	<script src="https://unpkg.com/vue" ></script>
+
+	<!-- This is your local javascript that will use Vue2 -->
+	<script src="vanilla.js"></script>
+
+</html>
+
+
