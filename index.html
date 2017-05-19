@@ -11,29 +11,26 @@
 		<style type="text/css">
 			
 			.isaqua {
-				color:aqua;
+				color:hotpink;
 			}
-			 p.one {
-    			border-style: dotted;
-    			border-width: thick;
-			}
+			 
 		</style>
 
 	</head>
 
 	<!-- Visible page content goes below here -->
-	<body style="background-color:khaki;">
+	<body style="background-color:black;">
 
 		<h1 style="text-align:center;
-		font-family:papyrus;
-		color:grey"
-		<strong>WAOA</strong> it's my vanilla WEB PAGE
+		font-family:corsiva;
+		color:hotpink"
+		<strong>Let's all love Lain!</strong>
 		</h1>
 	<br>
 		<a href="../index.html">
 		<h3 style="text-align:center;
 		color:IndianRed;"
-		>Wanna head back?</h3></a>
+		>GO<br> Away</h3></a>
 		
 		<div id="root"><!-- This is IMPORTANT! 
 		It is the root (main) container for the Vue2 script -->
@@ -56,13 +53,13 @@
 
 					<div> <!-- this is not really important, but will be the 'holder' for the post object item -->
 
-						<img :src="post.img"> <!-- this is bound to the img slot -->
+						<img :src="post.img" width="400px"> <!-- this is bound to the img slot -->
 
-						<a class="isaqua" :href="post.link">{{post.title}}</a>
+						<a class="isaqua" :href="post.link">Wired people</a>
 
-						<p><em>by {{post.author}}</em></p>
+						<p class="isaqua"><em>A Wired world</em></p>
 
-						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
+						<p class="isaqua">You've been here since the beginning</p> <!-- this is bound to the body slot -->
 
 					</div>
 					

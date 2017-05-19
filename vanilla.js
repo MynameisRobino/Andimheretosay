@@ -37,18 +37,18 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
+				'Omega', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'a Homeopathic theopany',			// this is the AUTHOR place in the class
+				'Wiredsounds.png',	// this is the IMAGE place in the class
+				'Let the love rain through her' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
+				'Beta',
 				'https://vuejs.org',
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
+				'a wandering Savoir',
+				'differentplacedifferenttime.png', // this is a local image in the same folder as the js script
 				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
 				),
 
