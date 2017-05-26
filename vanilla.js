@@ -53,26 +53,26 @@ const app = new Vue({
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
+				'This Post: letsall',
 				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
+				'Asiru',
+				'youdontneedyourbody.png',
 				'Crazy Fredrick bought many very exquisite opal jewels.'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'Another Post: lovelainlovelain',
 				'https://vuejs.org',
-				'Jane Author',
-				'https://unsplash.it/200',
+				'mikasa',
+				'wearethenuerons.png',
 				'We promptly judged antique ivory buckles for the next prize.'
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
+				'Last Post: cyberia',
 				'https://google.com',
 				'Anptoght Author',
-				'#',
+				'kamisama.png',
 				'Jaded zombies acted quaintly but kept driving their oxen forward.'
 				)
 		]

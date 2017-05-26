@@ -13,6 +13,9 @@
 			.isaqua {
 				color:hotpink;
 			}
+			.iscourier {
+				font-family:courier;
+			}
 			 
 		</style>
 
@@ -22,14 +25,14 @@
 	<body style="background-color:black;">
 
 		<h1 style="text-align:center;
-		font-family:corsiva;
+		font-family:courier;
 		color:hotpink"
 		<strong>Let's all love Lain!</strong>
 		</h1>
 	<br>
 		<a href="../index.html">
 		<h3 style="text-align:center;
-		color:IndianRed;"
+		color:IndianRed;font-family:courier;"
 		>GO<br> Away</h3></a>
 		
 		<div id="root"><!-- This is IMPORTANT! 
@@ -39,7 +42,7 @@
 		<!-- this 'wrapper' is just a container, not really important unless 
 		you want to use it for styling the input -->
 
-			<input type="text" v-model="keyword" name="search" placeholder="Search..."> <!-- This is IMPORTANT!
+			<input type="text" v-model="keyword" name="search" placeholder="where?"> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
 
 		</div>
